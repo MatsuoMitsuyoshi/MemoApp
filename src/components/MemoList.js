@@ -1,34 +1,40 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import {
+  StyleSheet, View, Text, TouchableHighlight,
+} from 'react-native';
 
 class MemoList extends React.Component {
   render() {
     return (
       <View style={styles.memoList}>
-        <View style={styles.memoListItem}>
-          <Text style={styles.memoTile}>講座のアイデア</Text>
-          <Text style={styles.memoDate}>2019/1/12</Text>
-        </View>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.memoListItem}>
+            <Text style={styles.memoTile}>講座のアイデア</Text>
+            <Text style={styles.memoDate}>2019/1/12</Text>
+          </View>
+        </TouchableHighlight>
 
-        <View style={styles.memoListItem}>
-          <Text style={styles.memoTile}>買い出し</Text>
-          <Text style={styles.memoDate}>2019/1/12</Text>
-        </View>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.memoListItem}>
+            <Text style={styles.memoTile}>講座のアイデア</Text>
+            <Text style={styles.memoDate}>2019/1/12</Text>
+          </View>
+        </TouchableHighlight>
 
-        <View style={styles.memoListItem}>
-          <Text style={styles.memoTile}>11月のTODOリスト</Text>
-          <Text style={styles.memoDate}>2019/1/12</Text>
-        </View>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.memoListItem}>
+            <Text style={styles.memoTile}>講座のアイデア</Text>
+            <Text style={styles.memoDate}>2019/1/12</Text>
+          </View>
+        </TouchableHighlight>
 
-        <View style={styles.memoListItem}>
-          <Text style={styles.memoTile}>講座のアイテム</Text>
-          <Text style={styles.memoDate}>2019/1/12</Text>
-        </View>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.memoListItem}>
+            <Text style={styles.memoTile}>講座のアイデア</Text>
+            <Text style={styles.memoDate}>2019/1/12</Text>
+          </View>
+        </TouchableHighlight>
 
-        <View style={styles.memoListItem}>
-          <Text style={styles.memoTile}>レシピ カルボナーラ</Text>
-          <Text style={styles.memoDate}>2019/1/12</Text>
-        </View>
       </View>
     );
   }
@@ -41,6 +47,7 @@ const styles = StyleSheet.create({
   },
   memoListItem: {
     padding: 16,
+    backgroundColor: '#fff',
     borderBottomWidth: 1,
     borderBottomColor: '#ddd',
   },
