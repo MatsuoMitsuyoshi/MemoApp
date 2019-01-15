@@ -18,7 +18,7 @@ class SignupScreen extends React.Component {
       })
       .catch((error) => {
         console.log(error);
-      })
+      });
     // { this.props.navigation.navigate('Home') }
 
     // Sign up!
