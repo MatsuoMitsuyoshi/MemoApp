@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     paddingLeft: 16,
     paddingRight: 16,
     paddingBottom: 16,
+    fontSize: 16,
   },
 });
 
