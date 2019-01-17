@@ -43,9 +43,10 @@ const styles = StyleSheet.create({
   },
   memoTile: {
     fontSize: 18,
-    marginBottom: 4,
+    marginBottom: 8,
   },
   memoDate: {
+    marginTop: 4,
     fontSize: 12,
     color: '#a2a2a2',
   },

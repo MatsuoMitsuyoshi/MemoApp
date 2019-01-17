@@ -16,7 +16,6 @@ class MemoDetailScreen extends React.Component {
 
   componentWillMount() {
     const { params } = this.props.navigation.state;
-    // db.settings({ timestampsInSnapshots: true });
     this.setState({ memo: params.memo });
   }
 
