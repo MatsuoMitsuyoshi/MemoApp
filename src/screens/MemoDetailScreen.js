@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     paddingLeft: 20,
     paddingRight: 20,
     paddingBottom: 20,
-    backgroundColor: '#ddd',
+    backgroundColor: '#fff',
     flex: 1,
   },
   memoBody: {
@@ -87,7 +87,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
   editButton: {
-    top: 53,
+    top: 52,
   },
 });
 export default MemoDetailScreen;
