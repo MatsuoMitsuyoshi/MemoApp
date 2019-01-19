@@ -42,7 +42,7 @@ class LoginScreen extends React.Component {
           onChangeText={(text) => { this.setState({ email: text }); }}
           autoCapitalize="none"
           autoCorrect={false}
-          placrholder="Email Address"
+          placeholder="Email Address"
           underlineColorAndroid="transparent"
         />
         <TextInput
@@ -51,7 +51,7 @@ class LoginScreen extends React.Component {
           onChangeText={(text) => { this.setState({ password: text }); }}
           autoCapitalize="none"
           autoCorrect={false}
-          placrholder="Password"
+          placeholder="Password"
           secureTextEntry
           underlineColorAndroid="transparent"
         />
