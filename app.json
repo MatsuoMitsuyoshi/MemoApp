@@ -26,6 +26,9 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.mitsuyoshi.memot55"
+    },
+    "android": {
+      "package": "com.mitsuyoshi.memot55"
     }
   }
 }
